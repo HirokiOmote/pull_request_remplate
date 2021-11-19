@@ -37,11 +37,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: behavior
     attributes:
       label: 挙動
       description: 本来の正常な挙動、意図している挙動を記載してください。
       placeholder: ダッシュボードから全てのページへの画面遷移が可能であること。
-  - type: markdown
+  - type: textarea
+    id: solution
     attributes:
       label: 解決案
       description: 解決案や回避策があれば、提案してください。
