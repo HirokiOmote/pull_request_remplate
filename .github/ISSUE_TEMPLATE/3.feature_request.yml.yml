@@ -23,4 +23,4 @@ body:
     id: note
     attributes:
       label: 備考
-      description: 懸念されること、検討した代替案などがあれば記載してください。
+      description: 懸念されること、検討した代替案などがあれば、記載してください。
