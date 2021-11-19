@@ -1,0 +1,23 @@
+name: Feature Request (新機能リクエスト)
+description: Create a feature request
+labels: 'enhancement'
+body:
+  - type: markdown
+    attributes:
+      value: 新機能へのリクエスト、ありがとうございます！可能な限り、フォームへの入力をお願いします。簡潔かつ明確に。
+  - type: textarea
+    attributes:
+      label: 要望
+      description: あなたの要望をお聞かせください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 解決
+      description: この要望によって、何が解決できるのかを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 備考
+      description: 懸念されること、検討した代替案などがあれば記載してください。

@@ -1,0 +1,51 @@
+name: Bug Report
+description: Create a bug report
+labels: 'bug'
+body:
+  - type: markdown
+    attributes:
+      value: バグレポート、ありがとうございます！可能な限り、フォームへの入力をお願いします。簡潔かつ明確に。
+  - type: input
+    attributes:
+      label: OS
+      value: 
+      description: 'OS'
+      value:
+      placeholder: macOS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: ブラウザ
+      description: 'ブラウザは何をお使いですか？バージョン名の記載もお願い致します。'
+      placeholder: Chrome 96
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 内容
+      description: バグの内容を記載してください。
+      placeholder: ダッシュボードから、ボタンがクリックできず、画面遷移ができない。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 再現手順
+      description: バグを再現するために、手順を記載してください。
+      placeholder: シークレットモードでログイン後、ダッシュボードでリロードをすると動作しない。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 正常なケース
+      description: 本来の正常な挙動、意図している挙動を記載してください。
+      placeholder: ダッシュボードから全てのページへの画面遷移が可能であること。
+    validations:
+  - type: markdown
+    attributes:
+      label: 解決案
+      description: 解決案や回避策があれば、提案してください。
+      placeholder: <button />タグを<nuxt-link />に変更する。
+  - type: markdown
+    attributes:
+      value: ご入力、ありがとうございます。送信する前に、内容をご確認ください。
