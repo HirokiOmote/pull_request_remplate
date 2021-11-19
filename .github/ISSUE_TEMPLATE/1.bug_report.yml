@@ -6,12 +6,10 @@ body:
     attributes:
       value: バグレポート、ありがとうございます！可能な限り、フォームへの入力をお願いします。簡潔かつ明確に。
   - type: input
+    id: os
     attributes:
       label: OS
-      value: 
-      description: 'OS'
-      value:
-      placeholder: macOS
+      value: macOS
     validations:
       required: true
   - type: input
