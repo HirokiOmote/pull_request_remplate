@@ -13,6 +13,7 @@ body:
     validations:
       required: true
   - type: input
+    id: browser
     attributes:
       label: ブラウザ
       description: 'ブラウザは何をお使いですか？バージョン名の記載もお願い致します。'
@@ -20,6 +21,7 @@ body:
     validations:
       required: true
   - type: textarea
+    id: details
     attributes:
       label: 内容
       description: バグの内容を記載してください。
@@ -27,6 +29,7 @@ body:
     validations:
       required: true
   - type: textarea
+    id: reenactment
     attributes:
       label: 再現手順
       description: バグを再現するために、手順を記載してください。
@@ -35,10 +38,9 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 正常なケース
+      label: 挙動
       description: 本来の正常な挙動、意図している挙動を記載してください。
       placeholder: ダッシュボードから全てのページへの画面遷移が可能であること。
-    validations:
   - type: markdown
     attributes:
       label: 解決案
